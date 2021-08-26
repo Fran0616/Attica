@@ -24,7 +24,70 @@ Task
 
 
 Test Data
+```
 =
-
-
-
+$ pwd
+/home/ccuser/workspace/clothing
+$ nano hello.txt
+$ nano ~/.bash_profile
+$ source ~/.bash_profile
+Hello, I am nano
+$ nano ~/.bash_profile
+$ source ~/.bash_profile
+Hello, I am nano
+$ p
+/home/ccuser/workspace/clothing
+$ ll
+total 4
+drwxr-xr-x 2 ccuser ccuser 152 Aug 26 15:38 .
+drwxrwxr-x 1 ccuser ccuser  22 Aug 26 15:37 ..
+-rw-r--r-- 1 ccuser ccuser   0 Aug 26 15:37 dresses.txt
+-rw-r--r-- 1 ccuser ccuser  17 Aug 26 15:38 hello.txt
+-rw-r--r-- 1 ccuser ccuser   0 Aug 26 15:37 jackets.txt
+-rw-r--r-- 1 ccuser ccuser   0 Aug 26 15:37 pants.txt
+-rw-r--r-- 1 ccuser ccuser   0 Aug 26 15:37 scarves.txt
+-rw-r--r-- 1 ccuser ccuser   0 Aug 26 15:37 shirts.txt
+-rw-r--r-- 1 ccuser ccuser   0 Aug 26 15:37 socks.txt
+-rw-r--r-- 1 ccuser ccuser   0 Aug 26 15:37 sweaters.txt
+$ echo USER
+USER
+$ source ~/.bash_profile
+Hello, I am nano
+>>p
+/home/ccuser/workspace/clothing
+>>ll
+total 4
+drwxr-xr-x 2 ccuser ccuser 152 Aug 26 15:38 .
+drwxrwxr-x 1 ccuser ccuser  22 Aug 26 15:37 ..
+-rw-r--r-- 1 ccuser ccuser   0 Aug 26 15:37 dresses.txt
+-rw-r--r-- 1 ccuser ccuser  17 Aug 26 15:38 hello.txt
+-rw-r--r-- 1 ccuser ccuser   0 Aug 26 15:37 jackets.txt
+-rw-r--r-- 1 ccuser ccuser   0 Aug 26 15:37 pants.txt
+-rw-r--r-- 1 ccuser ccuser   0 Aug 26 15:37 scarves.txt
+-rw-r--r-- 1 ccuser ccuser   0 Aug 26 15:37 shirts.txt
+-rw-r--r-- 1 ccuser ccuser   0 Aug 26 15:37 socks.txt
+-rw-r--r-- 1 ccuser ccuser   0 Aug 26 15:37 sweaters.txt
+>>echo $HOME
+/home/ccuser
+>>echo $PATH
+/home/ccuser/.bin:/home/ccuser/node_modules/.bin:/home/ccuser/.gem/ruby/2.3.0/bin:/home/ccuser/.composer/vendor/bin:/home/ccuser/.bin:/home/ccuser/node_modules/.bin:/home/ccuser/.gem/ruby/2.3.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+>>env
+HOSTNAME=41fc764b5ce0
+GEM_HOME=/home/ccuser/.gem/ruby/2.3.0
+TERM=xterm
+USER=Francisco
+EXPIRES_AT=1629995824
+NLTK_DATA=/home/ccuser/.nltk_data
+PATH=/home/ccuser/.bin:/home/ccuser/node_modules/.bin:/home/ccuser/.gem/ruby/2.3.0/bin:/home/ccuser/.composer/vendor/bin:/home/ccuser/.bin:/home/ccuser/node_modules/.bin:/home/ccuser/.gem/ruby/2.3.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+CODEX_RUNNER_PATH=/var/codecademy/codex/runners
+PWD=/home/ccuser/workspace/clothing
+MPLBACKEND=agg
+SESSION_ID=199f6821-588c-4a85-a4df-cd7e62f854bb
+LANG=en_US.UTF-8
+TZ=Etc/UTC
+PS1=>>
+HOME=/home/ccuser
+SHLVL=2
+PYTHONPATH=/var/codecademy/runner_contexts/python:
+_=/usr/bin/env
+```
