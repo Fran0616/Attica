@@ -24,8 +24,8 @@ Task
 
 
 Test Data
-```
 =
+```
 $ pwd
 /home/ccuser/workspace/clothing
 $ nano hello.txt
