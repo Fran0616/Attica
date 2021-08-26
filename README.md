@@ -91,3 +91,7 @@ SHLVL=2
 PYTHONPATH=/var/codecademy/runner_contexts/python:
 _=/usr/bin/env
 ```
+
+Summarry
+=
+In conclusion i learned to use the bash profile to configure the environment. The environment refers to the preferences and setting of the current user. The nano editor is a command line text editor used to configure the environment. The bash profile is where environment settings are stored, and you can edit this file with nano `nano ~/.bash_profile`. Environment variables are variables that can be used across commands and programs and hold information about the environment. the `export VARIABLE="Value"` sets and expors an environment varaable. `USER` is the name of the current user. `ps1` is the command prompt. `HOME` is the home directory. It is usually not customized. `PATH` returns a collan `:` separated list of file paths. It is customized in advenced cases. `env` returns a list of environment variables. You can redirect the output, using `grep` to select the varaible you want to see. 
